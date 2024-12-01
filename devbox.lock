@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "nim@2.0.4": {
+      "last_modified": "2024-07-11T08:49:09Z",
+      "resolved": "github:NixOS/nixpkgs/6af55cb91ca2005516b9562f707bb99c8f79bf77#nim",
+      "source": "devbox-search",
+      "version": "2.0.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/11bwdyrpcld2qiyliscsa345ard0717p-aarch64-apple-darwin-nim-wrapper-2.0.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/11bwdyrpcld2qiyliscsa345ard0717p-aarch64-apple-darwin-nim-wrapper-2.0.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rga680nijglzg0zyjqad1ii39hb2b4zm-aarch64-unknown-linux-gnu-nim-wrapper-2.0.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rga680nijglzg0zyjqad1ii39hb2b4zm-aarch64-unknown-linux-gnu-nim-wrapper-2.0.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xa5qxvcgjzb65yip040wzjqvjjzzbac8-x86_64-apple-darwin-nim-wrapper-2.0.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xa5qxvcgjzb65yip040wzjqvjjzzbac8-x86_64-apple-darwin-nim-wrapper-2.0.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fbi9xnbjdigln21qzhv7cmf7p4vz55fj-x86_64-unknown-linux-gnu-nim-wrapper-2.0.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fbi9xnbjdigln21qzhv7cmf7p4vz55fj-x86_64-unknown-linux-gnu-nim-wrapper-2.0.4"
+        }
+      }
+    }
+  }
+}
